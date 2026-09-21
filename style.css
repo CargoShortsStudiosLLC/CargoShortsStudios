@@ -1,9 +1,10 @@
 :root {
   color-scheme: light dark;
-  --bg: #0b0d12;
-  --fg: #f5f6f8;
-  --muted: #9aa0ac;
-  --accent: #ff6a3d;
+  --bg: #1c1b19;
+  --fg: #f5f1e8;
+  --muted: #a99c86;
+  --accent: #c25b2c;
+  --khaki: #c2a878;
 }
 
 * {
@@ -29,6 +30,12 @@ body {
 
 .wrap {
   max-width: 560px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 20px;
 }
 
 .eyebrow {
