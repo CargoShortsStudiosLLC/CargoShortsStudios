@@ -51,6 +51,10 @@ body {
   margin: 0 0 20px;
 }
 
+.logo--rounded {
+  border-radius: 26px;
+}
+
 .eyebrow {
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -94,8 +98,8 @@ h1 {
 .app-card {
   position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  gap: 12px;
   min-width: 220px;
   padding: 16px 18px;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -112,6 +116,19 @@ h1 {
   border-color: var(--accent);
   background: rgba(255, 255, 255, 0.07);
   outline: none;
+}
+
+.app-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.app-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .app-card__name {
