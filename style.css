@@ -262,3 +262,81 @@ footer {
 a {
   color: var(--accent);
 }
+
+body.legal {
+  align-items: center;
+  padding-top: 48px;
+}
+
+body.legal .wrap {
+  max-width: 720px;
+  width: 100%;
+}
+
+body.legal .legal-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.legal-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 32px;
+}
+
+.legal article {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.legal article h2 {
+  font-size: 1.35rem;
+  margin: 40px 0 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 32px;
+}
+
+.legal article h2:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.legal article h3 {
+  font-size: 1.1rem;
+  margin: 24px 0 10px;
+  color: var(--khaki);
+}
+
+.legal article p {
+  margin: 0 0 16px;
+  color: var(--fg);
+}
+
+.legal article ul {
+  margin: 0 0 16px;
+  padding-left: 1.25em;
+}
+
+.legal article li {
+  margin-bottom: 8px;
+}
+
+.legal article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 24px;
+  font-size: 0.9rem;
+}
+
+.legal article th,
+.legal article td {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.legal article th {
+  background: rgba(255, 255, 255, 0.05);
+}
