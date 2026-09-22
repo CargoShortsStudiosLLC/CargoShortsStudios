@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commander Crush — Cargo Shorts Studios</title>
+  <meta name="description" content="Commander Crush — swipe your way to your next favorite Commander. Coming soon from Cargo Shorts Studios." />
+  <link rel="icon" href="assets/commander-crush-icon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <a class="back-link" href="index.html">&larr; Cargo Shorts Studios</a>
+    <img class="logo logo--rounded" src="assets/commander-crush-icon.png" alt="Commander Crush logo" width="120" height="120" />
+    <p class="eyebrow">Commander Crush</p>
+    <h1>Find your next favorite Commander.</h1>
+    <p class="sub">Hot singles in your commander deck? We can't promise that. But swipe right on your next favorite Commander and we'll call it a win. Commander Crush lets you quickly swipe through Commanders, save your favorites, and build your next deck around the one that feels like The One.</p>
+
+    <div class="store-badges" aria-label="App availability">
+      <span class="badge badge--disabled" aria-disabled="true">
+        <span class="badge__eyebrow">Coming soon on the</span>
+        <span class="badge__name">App Store</span>
+      </span>
+      <span class="badge badge--disabled" aria-disabled="true">
+        <span class="badge__eyebrow">Coming soon on</span>
+        <span class="badge__name">Google Play</span>
+      </span>
+    </div>
+  </main>
+  <footer>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="/commandercrush/privacypolicy/">Privacy Policy</a>
+      <span aria-hidden="true">·</span>
+      <a href="/commandercrush/tos/">Terms of Service</a>
+    </nav>
+    <p>&copy; <span id="year"></span> Cargo Shorts Studios LLC</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
