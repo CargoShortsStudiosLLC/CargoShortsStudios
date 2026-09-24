@@ -4,19 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support — Cargo Shorts Studios</title>
-  <meta name="description" content="Get support for Cargo Shorts Studios apps." />
+  <meta name="description" content="Contact Cargo Shorts Studios for app support, legal questions, or security reports." />
   <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" />
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <main class="wrap">
-    <a href="/"><img class="logo" src="/assets/logo.svg" alt="Cargo Shorts Studios" width="120" height="120" /></a>
-    <p class="eyebrow">Cargo Shorts Studios</p>
-    <h1>Support</h1>
-    <p class="sub">Need help? Contact us at <a href="mailto:support@cargoshortsstudios.com">support@cargoshortsstudios.com</a>.</p>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="/"><img src="/assets/logo.svg" alt="" width="24" height="24" />Cargo Shorts Studios</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/commandercrush.html">Commander Crush</a>
+        <a href="/support/" aria-current="page">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <h1>Support</h1>
+      <p class="lede">Email us and we'll get back to you. Tell us which app you're using, your device, and what happened.</p>
+
+      <table>
+        <thead>
+          <tr><th scope="col">For</th><th scope="col">Email</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>App help and bug reports</td><td><a href="mailto:support@cargoshortsstudios.com">support@cargoshortsstudios.com</a></td></tr>
+          <tr><td>Privacy and legal</td><td><a href="mailto:legal@cargoshortsstudios.com">legal@cargoshortsstudios.com</a></td></tr>
+          <tr><td>Security reports</td><td><a href="mailto:dev@cargoshortsstudios.com">dev@cargoshortsstudios.com</a></td></tr>
+        </tbody>
+      </table>
+
+      <p>To delete your Commander Crush data, open the app and go to <strong>Settings &rarr; Delete my data</strong>.</p>
+    </div>
   </main>
   <footer>
-    <p>&copy; <span id="year"></span> Cargo Shorts Studios LLC</p>
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Cargo Shorts Studios LLC</p>
+      <nav aria-label="Footer">
+        <a href="/commandercrush/privacypolicy/">Privacy</a>
+        <a href="/commandercrush/tos/">Terms</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
