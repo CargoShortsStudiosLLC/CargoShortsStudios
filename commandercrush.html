@@ -4,36 +4,73 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Commander Crush — Cargo Shorts Studios</title>
-  <meta name="description" content="Commander Crush — swipe your way to your next favorite Commander. Coming soon from Cargo Shorts Studios." />
-  <link rel="icon" href="assets/commander-crush-icon.png" type="image/png" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Commander Crush: swipe through Magic: The Gathering commanders and save your favorites. Coming soon to iOS and Android." />
+  <link rel="icon" href="/assets/commander-crush-icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" />
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <main class="wrap">
-    <a class="back-link" href="index.html">&larr; Cargo Shorts Studios</a>
-    <img class="logo logo--rounded" src="assets/commander-crush-icon.png" alt="Commander Crush logo" width="120" height="120" />
-    <p class="eyebrow">Commander Crush</p>
-    <h1>Find your next favorite Commander.</h1>
-    <p class="sub">Hot singles in your commander deck? We can't promise that. But swipe right on your next favorite Commander and we'll call it a win. Commander Crush lets you quickly swipe through Commanders, save your favorites, and build your next deck around the one that feels like The One.</p>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-name" href="/"><img src="/assets/logo.svg" alt="" width="24" height="24" />Cargo Shorts Studios</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/commandercrush.html" aria-current="page">Commander Crush</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <div class="title-row">
+        <img src="/assets/commander-crush-icon.png" alt="" width="56" height="56" />
+        <h1>Commander Crush</h1>
+      </div>
+      <p class="lede">Hot singles in your commander deck? We can't promise that. But swipe right on your next favorite Commander and we'll call it a win.</p>
 
-    <div class="store-badges" aria-label="App availability">
-      <span class="badge badge--disabled" aria-disabled="true">
-        <span class="badge__eyebrow">Coming soon on the</span>
-        <span class="badge__name">App Store</span>
-      </span>
-      <span class="badge badge--disabled" aria-disabled="true">
-        <span class="badge__eyebrow">Coming soon on</span>
-        <span class="badge__name">Google Play</span>
-      </span>
+      <section class="sheet" aria-label="About Commander Crush">
+        <h2>What it does</h2>
+        <div>
+          <p>Swipe through commanders for the Commander format of Magic: The Gathering. Save the ones you like, then build your next deck around one of them.</p>
+        </div>
+
+        <h2>Details</h2>
+        <div>
+          <dl class="facts">
+            <dt>Status</dt><dd>In development</dd>
+            <dt>Platforms</dt><dd>iOS (App Store) and Android (Google Play), coming soon</dd>
+            <dt>Price</dt><dd>Free</dd>
+            <dt>Ages</dt><dd>13+</dd>
+            <dt>Accounts</dt><dd>None needed</dd>
+          </dl>
+        </div>
+
+        <h2>Legal</h2>
+        <div>
+          <div class="links">
+            <a href="/commandercrush/privacypolicy/">Privacy Policy</a>
+            <a href="/commandercrush/tos/">Terms of Service</a>
+          </div>
+          <p class="fine-print">Commander Crush is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy;Wizards of the Coast LLC.</p>
+        </div>
+
+        <h2>Help</h2>
+        <div>
+          <p><a href="mailto:support@cargoshortsstudios.com">support@cargoshortsstudios.com</a></p>
+        </div>
+      </section>
     </div>
   </main>
   <footer>
-    <nav class="footer-nav" aria-label="Footer">
-      <a href="/commandercrush/privacypolicy/">Privacy Policy</a>
-      <span aria-hidden="true">·</span>
-      <a href="/commandercrush/tos/">Terms of Service</a>
-    </nav>
-    <p>&copy; <span id="year"></span> Cargo Shorts Studios LLC</p>
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Cargo Shorts Studios LLC</p>
+      <nav aria-label="Footer">
+        <a href="/commandercrush/privacypolicy/">Privacy</a>
+        <a href="/commandercrush/tos/">Terms</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
