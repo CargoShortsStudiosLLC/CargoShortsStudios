@@ -225,6 +225,18 @@ p {
   font-size: 0.95rem;
 }
 
+.shots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.shots img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Tables and definition lists */
 
 table {
