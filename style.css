@@ -226,15 +226,15 @@ p {
 }
 
 .shots {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
 .shots img {
-  width: 100%;
+  width: 120px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* Tables and definition lists */
