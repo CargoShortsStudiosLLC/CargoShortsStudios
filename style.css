@@ -365,3 +365,36 @@ footer a {
     overflow-x: auto;
   }
 }
+
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin: 8px 0;
+}
+
+/* Google's PNG carries built-in clear space; trim it so both badges look the same height. */
+.store-badges .badge-play {
+  width: 156px;
+  height: 60px;
+  border-radius: 0;
+  display: block;
+  margin: -10px -10px -10px -10px;
+}
+
+.badge-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.store-badges .badge-soon img {
+  width: 120px;
+  height: 40px;
+  border-radius: 0;
+  display: block;
+  opacity: 0.45;
+  filter: grayscale(1);
+}
