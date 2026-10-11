@@ -383,18 +383,9 @@ footer a {
   margin: -10px -10px -10px -10px;
 }
 
-.badge-soon {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.9rem;
-}
-
-.store-badges .badge-soon img {
+.store-badges .badge-appstore {
   width: 120px;
   height: 40px;
   border-radius: 0;
   display: block;
-  opacity: 0.45;
-  filter: grayscale(1);
 }
